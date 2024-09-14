@@ -1,4 +1,5 @@
-To run your Selenium-based Python script on a Windows or macOS computer, you need to install and set up several components. Here’s a list of what you need and how to install them:
+This is a Selenium-based Python script, to run it on a Windows or macOS computer, you need to install and set up several components. 
+Here’s a list of what you need and how to install them:
 
 ### 1. **Python**
 
@@ -26,12 +27,12 @@ pip install selenium pandas
 
 ### 3. **Web Browser Driver**
 
-Your script uses the Chrome WebDriver. You need to install the corresponding WebDriver for your browser.
+This script uses the Chrome WebDriver. You need to install the corresponding WebDriver for your browser.
 
 #### **For Google Chrome:**
 
 - **Download ChromeDriver:**
-  1. Go to the [ChromeDriver download page](https://sites.google.com/chromium.org/driver/).
+  1. Go to https://googlechromelabs.github.io/chrome-for-testing/
   2. Download the version that matches your installed version of Google Chrome.
   3. **Extract the downloaded file.**
 
@@ -90,4 +91,4 @@ To verify that everything is set up correctly:
   chromedriver --version
   ```
 
-If you follow these steps and have Python, necessary packages, and WebDriver installed, you should be able to run your Selenium script successfully. If you encounter any issues, make sure to check for error messages and ensure that all paths and versions are correctly configured.
+If you follow these steps and have Python, necessary packages, and WebDriver installed, you should be able to run this script successfully. If you encounter any issues, make sure to check for error messages and ensure that all paths and versions are correctly configured (or just ask ChatGPT lol).
