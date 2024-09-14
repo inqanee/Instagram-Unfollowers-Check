@@ -41,12 +41,11 @@ username.send_keys('your_username')  # Replace with your Instagram username
 password.send_keys('your_password')  # Replace with your Instagram password
 password.send_keys(Keys.RETURN)
 time.sleep(5)  # Wait for login to complete
-
 print("Logged in.")
 
 print("Navigating to profile...")
 # Navigate to your profile
-driver.get("https://www.instagram.com/your_username/")  # Replace 'your_username' with your actual Instagram username
+driver.get("https://www.instagram.com/your_username/")  # Replace 'inqanee' with your actual Instagram username
 time.sleep(2)
 
 print("Opening Followers List...")
