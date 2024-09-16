@@ -17,6 +17,8 @@ To run this script, follow these steps:
    - Replace `'your_password'` with your actual Instagram password.
 
 4. **Run the Script**
+   - Type 'Chromedriver' into your terminal 
+   - You should get a message saying something like 'ChromeDriver was started successfully on port....'
    - Execute the script. A WebDriver window will open and automatically log in to your Instagram account.
 
 5. **Navigate to Your Profile**
